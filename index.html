@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>HTML Academy: Пинк</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="script.js"></script>
+    </head>
+   <body>
+      <h2>Select how many quotes you want to generate:</h2>
+      <p id="result"></p>
+      <p id="radio_result"></p>
+      <select id="number_of_words">
+         <option value="none">--Select--</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>
+         <option value="5">5</option>
+      </select>
+      <br>
+      <br>
+      <form>
+         <input type="radio" name="quote_type" value="work">About work<br>
+         <input type="radio" name="quote_type" value="life">About life<br>
+      </form>
+      <br>
+      <button type="button" onclick="GetSelectedText()">Start quote with verb</button>
+   </body>
+   <p id="text"></p>
+</html>
